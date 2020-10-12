@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(bg.svg);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+
+.header {
+  width: 80%;
+  margin: auto;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Lobster", cursive;
+  letter-spacing: 4px;
+  margin: 40px 0 20px 0;
+  color: lightblue;
+}
+
+.sign {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  color: white;
+}
+
+.sign span {
+  font-family: "Parisienne", cursive;
+}
+
+.meme {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.meme img {
+  width: 70%;
+  margin: auto;
+  max-height: 80vh;
+}
+
+.meme > h2 {
+  position: absolute;
+  margin: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  width: 70%;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  letter-spacing: 1px;
+  font-family: "Parisienne";
+}
+
+.top {
+  top: 0%;
+}
+
+.bottom {
+  bottom: 0%;
+}
+
+.myForm {
+  padding: 30px;
+  margin: auto;
+}
+
+.myForm input {
+  padding: 10px;
+  font-size: 1.2em;
+  text-decoration: solid;
+}
+
+.myForm button {
+  padding: 10px;
+  font-size: 1.2em;
+}
